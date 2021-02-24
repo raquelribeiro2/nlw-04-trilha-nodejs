@@ -35,3 +35,8 @@
 $ yarn typeorm migration:run 
 ```
 - Feito isso, basta executar ``` yarn dev ``` para que o servidor seja iniciado.
+
+## Testando a aplicação
+
+- Para testar a aplicação foram criados testes de integração, onde será necessário simular um banco de dados, já que estamos testando as rotas.
+- Para realizar os testes, execute o comando ``` yarn test ```, pois ele criará as migrations no Banco de Dados de testes para que os testes sejam aprovados.
